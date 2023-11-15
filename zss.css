@@ -1,0 +1,51 @@
+/*
+  Name: ZSS
+  Author: Vinicius Miranda
+*/
+
+
+
+
+
+/*
+  Transitions
+*/
+.-delay-all-p5s {
+  transition: all .5s !important;
+}
+
+
+
+
+
+/*
+  Text Effect
+*/
+.-text-hover-red:hover {
+  color: red !important;
+}
+
+
+
+
+
+/*
+  Parses
+*/
+@media screen and (max-width:600px) 
+{
+  .-mobile-display-none
+  {
+    display: none !important;
+  }
+
+  .-mobile-border-none
+  {
+    border: none !important;
+  }
+  
+  .-mobile-shadow-none
+  {
+    box-shadow: none !important;
+  }
+}
