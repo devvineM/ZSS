@@ -10,5 +10,5 @@ Estamos empolgados em compartilhar essa ferramenta com a comunidade de desenvolv
 
 ## Instalação
 ``` html
-	<link rel="stylesheets" href="https://firebasestorage.googleapis.com/v0/b/cdns-69353.appspot.com/o/ZSS%2Fzss.css?alt=media&token=cb68b1d6-06d4-4314-8014-b2b37440906a" />
+	<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/cdns-69353.appspot.com/o/ZSS%2Fzss.css?alt=media&token=cb68b1d6-06d4-4314-8014-b2b37440906a">
 ```
