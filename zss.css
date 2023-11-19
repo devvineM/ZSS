@@ -5,47 +5,97 @@
 
 
 
-
-
-/*
-  Transitions
-*/
-.-delay-all-p5s {
-  transition: all .5s !important;
-}
-
-
-
-
-
-/*
-  Text Effect
-*/
-.-text-hover-red:hover {
-  color: red !important;
-}
-
-
-
-
-
-/*
-  Parses
-*/
-@media screen and (max-width:600px) 
+/* <kit> */
+.--box
 {
-  .-mobile-display-none
-  {
-    display: none !important;
-  }
-
-  .-mobile-border-none
-  {
-    border: none !important;
-  }
-  
-  .-mobile-shadow-none
-  {
-    box-shadow: none !important;
-  }
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
+/*</kit> */
+
+
+
+/* <display>  */
+.--d-flex
+{
+  display: flex !important;
+}
+.--d-none
+{
+  display: none !important;
+}
+/* </display>  */
+
+
+
+/* <width>  */
+.--w-0pc:
+{
+  width: 0% !important;
+}
+.--w-25pc:
+{
+  width: 25% !important;
+}
+.--w-50pc:
+{
+  width: 50% !important;
+}
+.--w-75pc:
+{
+  width: 75% !important;
+}
+.--w-100pc:
+{
+  width: 100% !important;
+}
+/* </width>  */
+
+
+
+/* <height>  */
+.--h-0pc:
+{
+  height: 0% !important;
+}
+.--h-25pc:
+{
+  height: 25% !important;
+}
+.--h-50pc:
+{
+  height: 50% !important;
+}
+.--h-75pc:
+{
+  height: 75% !important;
+}
+.--h-100pc:
+{
+  height: 100% !important;
+}
+/* </height>  */
+
+
+
+/* <flex-direction>  */
+.--fd-row
+{
+  flex-direction: row !important;  
+}
+.--fd-column
+{
+  flex-direction: column !important;
+}
+/* </flex-direction>  */
+
+
+
+/* <cursor>  */
+.--c-pointer
+{
+  cursor: pointer !important;
+}
+/* </cursor>  */
